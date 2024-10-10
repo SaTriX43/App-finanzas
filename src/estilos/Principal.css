@@ -1,0 +1,19 @@
+.principal {
+  display: grid;
+  width: 100%;
+  max-width: 1400px;
+  grid-template-columns: repeat(auto-fill,minmax(350px,1fr));
+
+  margin: auto;
+  gap: 10px;
+  padding: 20px;
+}
+
+
+
+@media ((min-width: 750px) and (max-width: 1110px)) {
+
+  .principal__acciones {
+    grid-column: span 2;
+  }
+}

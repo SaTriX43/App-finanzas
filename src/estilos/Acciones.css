@@ -1,0 +1,37 @@
+.principal__acciones {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 300px;
+
+  padding: 20px;
+  gap: 20px;
+
+  box-shadow: 0px 5px 10px 0px gray;
+
+  border-radius: 20px;
+  background-color: white;
+  transition: all .3s ease;
+}
+
+.principal__acciones:hover {
+  transform: translateY(-10px);
+}
+
+.principal__acciones-titulo {
+  color: #6e8efb;
+}
+
+
+.principal__acciones hr {
+  width: 100%;
+  height: 3px;
+  background-color: #6e8efb;
+}
+
+.principal__acciones-contenedor-botones {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 20px;
+}

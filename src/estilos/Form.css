@@ -1,0 +1,89 @@
+.principal__seccion-form {
+  position: fixed;
+  display: flex;
+  width: 100vw;
+  min-height: 100vh;
+
+  top: 0;
+  left: 0;
+
+  align-items: center;
+  justify-content: center;
+}
+
+
+.principal__form-fondo {
+  position: absolute;
+  width: 100vw;
+  min-height: 100vh;
+
+  background-color: rgba(0, 0, 0, 0.319);
+
+  top: 0;
+  left: 0;
+  z-index: 5;
+}
+
+
+.principal__form {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  max-width: 600px;
+  min-height: 600px;
+
+  gap: 30px;
+  padding: 20px;
+
+  border-radius: 20px;
+  background-color: white;
+  
+
+  z-index: 10;
+}
+
+.principal__form-retroceder {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+/* titulo  */
+
+.principal__form h1 {
+  color: #6e8efb;
+  font-size: 35px;
+}
+
+.principal__form-contenedor-items {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+
+  font-size: 25px;
+}
+
+.form__input {
+  display: flex;
+  width: 100%;
+  height: 40px;
+
+  padding-left: 10px;
+  padding-right: 5px;
+  border: 1px solid black;
+
+  font-size: 20px;
+  align-items: center;
+}
+
+.form__placeholder {
+  display: flex;
+  width: 100%;
+  min-height: 60px;
+  padding: 10px;
+
+  font-size: 18px;
+}
