@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/App-finanzas/static/css/main.e2bd7bc0.css",
-    "main.js": "/App-finanzas/static/js/main.472b0783.js",
+    "main.css": "/App-finanzas/static/css/main.71df4904.css",
+    "main.js": "/App-finanzas/static/js/main.b67c66b4.js",
     "index.html": "/App-finanzas/index.html",
-    "main.e2bd7bc0.css.map": "/App-finanzas/static/css/main.e2bd7bc0.css.map",
-    "main.472b0783.js.map": "/App-finanzas/static/js/main.472b0783.js.map"
+    "main.71df4904.css.map": "/App-finanzas/static/css/main.71df4904.css.map",
+    "main.b67c66b4.js.map": "/App-finanzas/static/js/main.b67c66b4.js.map"
   },
   "entrypoints": [
-    "static/css/main.e2bd7bc0.css",
-    "static/js/main.472b0783.js"
+    "static/css/main.71df4904.css",
+    "static/js/main.b67c66b4.js"
   ]
 }
